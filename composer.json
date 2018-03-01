@@ -1,0 +1,25 @@
+{
+    "name": "aidinov/concrete5-basket",
+    "description": "Concrete5 shopping basket package",
+    "homepage": "https://github.com/aidinov/concrete5-basket",
+    "keywords": ["e-commerce", "shopping"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Aidinov Andrei",
+            "email": "aidinov.andrey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aidinov\\Concrete\\Basket\\": "src/"
+        }
+    }
+}
