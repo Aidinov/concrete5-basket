@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "aidinov/basket": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "7"
