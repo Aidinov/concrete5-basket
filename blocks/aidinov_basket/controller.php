@@ -9,7 +9,7 @@
  * @version   GIT: <git_id> In development.
  * @link      https://github.com/Aidinov/concrete5-basket
  */
-namespace Concrete\Package\Basket\Block\Reviews;
+namespace Concrete\Package\AidinovBasket\Block\AidinovBasket;
 
 use Concrete\Core\Block\BlockController;
 
