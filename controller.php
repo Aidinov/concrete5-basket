@@ -36,6 +36,18 @@ class Controller extends Package
         return t("Basket");
     }
 
+    public function install()
+    {
+        $pkg = parent::instal();
+
+        if (!BlockTypeSet::getByHandle('basket')) {
+            BlockTypeSet::add('basket', 'Basket', $pkg);
+        }
+
+        // install blocks
+        BlockType::installBlockTypeFromPackage('aidinov_basket', $pkg);
+    }
+
     public function on_start()
     {
         $list = $this->app->make('Concrete\Core\Foundation\Service\ProviderList');
