@@ -38,7 +38,7 @@ class Controller extends Package
 
     public function install()
     {
-        $pkg = parent::instal();
+        $pkg = parent::install();
 
         if (!BlockTypeSet::getByHandle('basket')) {
             BlockTypeSet::add('basket', 'Basket', $pkg);
