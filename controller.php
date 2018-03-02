@@ -11,6 +11,8 @@
 namespace Concrete\Package\AidinovBasket;
 
 use Package;
+use BlockTypeSet;
+use BlockType;
 use Concrete\Core\Foundation\Service\ProviderList;
 use Concrete\Core\Foundation\ClassAliasList;
 
@@ -26,7 +28,7 @@ class Controller extends Package
 
     public function getPackageDescription()
     {
-        return t("Корзина");
+        return t("Shopping basket");
     }
 
     public function getPackageName()
