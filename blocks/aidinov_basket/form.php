@@ -6,7 +6,7 @@ $ps = Loader::helper('form/page_selector');
     <legend><?= t('Basket'); ?></legend>
     <div class="form-group">
         <?= $form->label('title', t('The title')); ?>
-        <?= $form->text('title', $orderFormID); ?>
+        <?= $form->text('title', $title); ?>
     </div>
 </fieldset>
 
