@@ -3,6 +3,14 @@ $ps = Loader::helper('form/page_selector');
 ?>
 
 <fieldset>
+    <legend><?= t('Basket'); ?></legend>
+    <div class="form-group">
+        <?= $form->label('title', t('The title')); ?>
+        <?= $form->text('title', $orderFormID); ?>
+    </div>
+</fieldset>
+
+<fieldset>
     <legend><?= t('Order'); ?></legend>
     <div class="form-group">
         <div class="radio">
